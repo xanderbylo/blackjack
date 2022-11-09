@@ -1,13 +1,27 @@
 body {
-    text-align: center;
+    margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("assets/table.png");
     background-size: cover;
     color: white;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
+    margin: 0 0 16px 0;
     color: goldenrod;
+   
+}
+
+p {
+    margin: 0 0 16px 0;
 }
 
 #message-el {
@@ -16,6 +30,7 @@ h1 {
 
 button {
     width: 150px;
+    margin: 0 0 5px 0;
     border: none;
     border-radius: 2px;
     padding: 5px 0;
