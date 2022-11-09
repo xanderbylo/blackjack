@@ -1,5 +1,5 @@
 let firstCard = 10;
-let secondCard = 11;
+let secondCard = 7;
 let sum = firstCard + secondCard;
 let hasBlackjack = false;
 let inGame = true;
@@ -26,5 +26,11 @@ function startGame() {
 }
 
 function newCard() {
+    let card = 4;
+
+    sum += card;
+
+    startGame();
+
     console.log("Drawing a new card from the deck!")
 }
